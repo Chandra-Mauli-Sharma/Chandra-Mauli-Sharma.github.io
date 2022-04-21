@@ -22,7 +22,7 @@ function App() {
               <a href='https://github.com/Chandra-Mauli-Sharma'><img src={github} alt="github" className='social-links' /></a>
             </div>
             <div className="column">
-            <a href='https://www.linkedin.com/in/chandra-mauli-sharma-375b87200/'><img src={linkedin} alt="linkedin" className='social-links' /></a>
+            <a href='https://www.linkedin.com/in/chandra-mauli-sharma-375b87200/'><img src={linkedin} alt="linkedin" className='social-links-linkedIn'/></a>
             </div>
             <div className="column">
             <a href='https://www.instagram.com/chandra_mauli_sharma/'><img src={insta} alt="insta" className='social-links' /></a>

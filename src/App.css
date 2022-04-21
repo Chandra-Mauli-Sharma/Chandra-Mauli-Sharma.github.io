@@ -58,8 +58,6 @@
 
 .Dock {
   margin: 10px;
-  width: 30%;
-  height: 23%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,12 +80,6 @@
   
   width: 25px;
   height: 25px;
-
-}
-.social-links:hover {
-  
-  width: 30px;
-  height: 30px;
 
 }
 
@@ -130,4 +122,14 @@ span.lastName{
 .changing-words:hover span.lastName{
   color:#222222;
   cursor:pointer;
+}
+
+.social-links:hover,.social-links-linkedIn:hover {
+  transition: all .2s ;
+  transform: scale(2);
+}
+
+.social-links-linkedIn{
+  width: 30px;
+  height: 25px;
 }
